@@ -3,8 +3,9 @@ project(Algorithms_DataStructure)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES "Sorting algos/Bubble_sort/bubble_sort.cpp" "Sorting algos/Counting_sort/counting_sort.cpp")
+set(SOURCE_FILES "Sorting algos/Bubble_sort/bubble_sort.cpp" )
 
+add_executable(Counting_sort "Sorting algos/Counting_sort/counting_sort.cpp")
 add_executable(Selection_sort "Sorting algos/Selection_sort/selection_sort.cpp")
 add_executable(Insertion_sort "Sorting algos/Insertion_sort/insertion_sort.cpp")
 add_executable(Bubble_sort "Sorting algos/Bubble_sort/bubble_sort.cpp")
