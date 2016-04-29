@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Selection_sort/selection_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Bubble_sort/bubble_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Heap_sort/heap_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
