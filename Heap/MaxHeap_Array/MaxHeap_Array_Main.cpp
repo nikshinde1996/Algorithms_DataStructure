@@ -3,6 +3,8 @@
 //
 #include <iostream>
 #include "MaxHeap_Array.h"
+#include <cstdlib>
+#include <limits.h>
 
 using namespace std;
 
