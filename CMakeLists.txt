@@ -3,11 +3,11 @@ project(Algorithms_DataStructure)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES "Sorting algos/Bubble_sort/bubble_sort.cpp" "Sorting algos/Counting_sort/counting_sort.cpp")
+set(SOURCE_FILES Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp Heap/MinHeap_Array/MinHeap_Array.h Heap/MinHeap_Array/MinHeap_Array_Main.cpp Heap/MaxHeap_Array/MaxHeap_Array.h
+        Sorting\ algos/Selection_sort/selection_sort.cpp Sorting\ algos/Insertion_sort/insertion_sort.cpp Sorting\ algos/Bubble_sort/bubble_sort.cpp)
 
-add_executable(Selection_sort "Sorting algos/Selection_sort/selection_sort.cpp")
-add_executable(Insertion_sort "Sorting algos/Insertion_sort/insertion_sort.cpp")
-add_executable(Bubble_sort "Sorting algos/Bubble_sort/bubble_sort.cpp")
+add_executable(Selection_sort "Sorting\ algos/Selection_sort/selection_sort.cpp")
+add_executable(Insertion_sort "Sorting\ algos/Insertion_sort/insertion_sort.cpp")
+add_executable(Bubble_sort "Sorting\ algos/Bubble_sort/bubble_sort.cpp")
 add_executable(MaxHeapArray Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp)
 add_executable(MinHeapArray Heap/MinHeap_Array/MinHeap_Array_Main.cpp)
-add_executable(Algorithms_DataStructure ${SOURCE_FILES})
