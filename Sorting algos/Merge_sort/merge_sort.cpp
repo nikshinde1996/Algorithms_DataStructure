@@ -13,7 +13,7 @@ template <typename T> void merge(T arr[],int start,int mid,int end){
     T temp[100];
     int j = start,m = mid+1;
     int i,k;
-    for(i = start;j<=mid && m<= end;j++){
+    for(i = start;j<=mid && m<= end;i++){
         if(arr[j]<arr[m]){
             temp[i] = arr[j];
             j++;
@@ -23,7 +23,7 @@ template <typename T> void merge(T arr[],int start,int mid,int end){
         }
     }
     if(j>mid){
-        for(k  = m;k<=end;k++){
+        for(k = m;k<=end;k++){
             temp[i] = arr[k];
             i++;
         }
@@ -39,7 +39,7 @@ template <typename T> void merge(T arr[],int start,int mid,int end){
 }
 
 template <typename T> void merge_sort(T arr[],int end,int start){
-    float mid = (start+end)/2;
+    int mid = (start+end)/2;
     if(start<end){
         merge_sort(arr,start,mid);
         merge_sort(arr ,mid+1,end);
