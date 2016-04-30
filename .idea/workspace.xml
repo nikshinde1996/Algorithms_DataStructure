@@ -6,6 +6,8 @@
       <config projectName="Algorithms_DataStructure" targetName="Bubble_sort" />
       <config projectName="Algorithms_DataStructure" targetName="MinHeapArray" />
       <config projectName="Algorithms_DataStructure" targetName="Algorithms_DataStructure" />
+      <config projectName="Algorithms_DataStructure" targetName="Merge_Sorting" />
+      <config projectName="Algorithms_DataStructure" targetName="Heap_sort" />
       <config projectName="Algorithms_DataStructure" targetName="Insertion_sort" />
       <config projectName="Algorithms_DataStructure" targetName="MaxHeapArray" />
       <config projectName="Algorithms_DataStructure" targetName="Selection_sort" />
@@ -18,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7839df8-608a-42f9-b806-dbb78fa18f14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting algos/Heap_sort/heap_sort.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Algorithms_DataStructure.iml" afterPath="$PROJECT_DIR$/.idea/Algorithms_DataStructure.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
@@ -44,54 +48,22 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="151" selection-start-line="5" selection-start-column="151" selection-end-line="5" selection-end-column="151" />
+            <state relative-caret-position="442">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinHeap_Array_Main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp">
+      <file leaf-file-name="merge_sort.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinHeap_Array.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertion_sort.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="181">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <element signature="e#41#59#0" expanded="true" />
-                <element signature="e#148#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="counting_sort.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#110#129#0" expanded="true" />
-                <element signature="e#217#229#0" expanded="true" />
+                <element signature="e#42#61#0" expanded="true" />
+                <element signature="e#149#161#0" expanded="true" />
+                <element signature="e#749#761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,10 +81,11 @@
         <option value="$PROJECT_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp" />
         <option value="$PROJECT_DIR$/Sorting algos/Selection_sort/selection_sort.cpp" />
         <option value="$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp" />
         <option value="$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array.h" />
         <option value="$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" />
       </list>
     </option>
   </component>
@@ -193,24 +166,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sorting algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Counting_sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Heap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -222,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.MinHeapArray">
+  <component name="RunManager" selected="Application.Merge_Sorting">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Algorithms_DataStructure" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -416,7 +371,15 @@
       <envs />
       <method />
     </configuration>
-    <list size="8">
+    <configuration default="false" name="Heap_sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Heap_sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Heap_sort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Merge_Sorting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Merge_Sorting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Merge_Sorting">
+      <envs />
+      <method />
+    </configuration>
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.Algorithms_DataStructure" />
       <item index="2" class="java.lang.String" itemvalue="Application.MaxHeapArray" />
@@ -425,6 +388,8 @@
       <item index="5" class="java.lang.String" itemvalue="Application.Insertion_sort" />
       <item index="6" class="java.lang.String" itemvalue="Application.Selection_sort" />
       <item index="7" class="java.lang.String" itemvalue="Application.Counting_sort" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Heap_sort" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Merge_Sorting" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -495,9 +460,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="745" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16152717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16152717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -544,6 +509,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#149#161#0" expanded="true" />
+            <element signature="e#749#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
           <folding />
@@ -554,10 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-            <element signature="e#148#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,10 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#110#129#0" expanded="true" />
-            <element signature="e#217#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,10 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-            <marker date="1461940620479" expanded="true" signature="165:1483" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,22 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="151" selection-start-line="5" selection-start-column="151" selection-end-line="5" selection-end-column="151" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-            <marker date="1461940620479" expanded="true" signature="165:1483" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,26 +646,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="391">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#110#129#0" expanded="true" />
-            <element signature="e#217#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,9 +660,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#41#59#0" expanded="true" />
-            <element signature="e#148#160#0" expanded="true" />
+            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#149#161#0" expanded="true" />
+            <element signature="e#749#761#0" expanded="true" />
           </folding>
         </state>
       </provider>
