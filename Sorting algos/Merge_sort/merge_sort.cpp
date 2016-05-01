@@ -42,7 +42,7 @@ template <typename T> void merge_sort(T arr[],int end,int start){
     int mid = (start+end)/2;
     if(start<end){
         merge_sort(arr,start,mid);
-        merge_sort(arr ,mid+1,end);
+        merge_sort(arr,mid+1,end);
         merge(arr,start,mid,end);
     }
 }
