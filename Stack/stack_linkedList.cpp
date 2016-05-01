@@ -31,7 +31,7 @@ template<class T> class Stack{
         cout<<"Enter the element to insert : ";cin>>val;
         temp = newNode(val);
         if(head == NULL){
-            head = temp;
+            head = tail = temp;
             head->next = tail;
         }else{
             tail->next = temp;
