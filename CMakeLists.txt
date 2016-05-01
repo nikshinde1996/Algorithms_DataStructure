@@ -17,9 +17,11 @@ set(SOURCE_FILES
         Sorting algos/Bubble_sort/bubble_sort.cpp
         Sorting algos/Heap_sort/heap_sort.cpp
         Sorting algos/Counting_sort/counting_sort.cpp
-        Sorting algos/Merge_sort/merge_sort.cpp)
+        Sorting algos/Merge_sort/merge_sort.cpp
+        Stack/stack_linkedList.cpp
+        )
 
-
+add_executable(Stack_dynamic "Stack/stack_linkedList.cpp")
 add_executable(Quick_sort "Sorting algos/Quick_sort/quick_sort.cpp")
 add_executable(Counting_sort "Sorting algos/Counting_sort/counting_sort.cpp")
 add_executable(Merge_Sorting "Sorting algos/Merge_sort/merge_sort.cpp")
