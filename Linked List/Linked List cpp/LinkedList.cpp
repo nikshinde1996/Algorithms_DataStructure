@@ -82,3 +82,7 @@ template <class T> class LinkedList{
 
 
 // Use generalised int main with all functions and class objects  for running this code
+int main(){
+
+    return 0;
+}

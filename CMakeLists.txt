@@ -22,8 +22,10 @@ set(SOURCE_FILES
         Queue/Queue cpp/queue_LinkedList.cpp
         Queue/Dequeue/Dequeue.cpp
         Tree/BinarySearchTree.cpp
+        Linked List/Linked List cpp/LinkedList.cpp
         )
 
+add_executable(LinkedList "Linked List/Linked List cpp/LinkedList.cpp")
 add_executable(Dequeue "Queue/Dequeue/Dequeue.cpp")
 add_executable(BST "Tree/BinarySearchTree.cpp")
 add_executable(Queue_dynamic "Queue/Queue cpp/queue_LinkedList.cpp")
