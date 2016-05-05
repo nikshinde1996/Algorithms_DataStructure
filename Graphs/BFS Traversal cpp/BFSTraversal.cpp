@@ -38,7 +38,7 @@ public:
            cout<<s<<" ";
            queue.pop_front();
 
-           for(i=adj[v].begin();i!=adj[v].end();i++){
+           for(i=adj[s].begin();i!=adj[s].end();i++){
                if(!visited[*i]){
                    visited[*i] = true;
                    queue.push_back(*i);
