@@ -25,11 +25,13 @@ set(SOURCE_FILES
         Queue/Dequeue/Dequeue.cpp
 
         Tree/BinarySearchTree.cpp
+        Tree/BinarySearchTree/BST_Main.cpp
 
         Linked List/Linked List cpp/LinkedList.cpp
 
         )
 
+add_executable(BSTMain Tree/BinarySearchTree/BST_Main.cpp)
 add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
 add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
 add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
