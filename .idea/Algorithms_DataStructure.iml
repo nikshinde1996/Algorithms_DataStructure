@@ -3,8 +3,6 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Stack/stack_linkedList.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Bubble_sort/bubble_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Heap_sort/heap_sort.cpp" isTestSource="false" />
@@ -13,12 +11,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Quick_sort/quick_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Linked List/Linked List cpp/LinkedList.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Queue/Queue cpp/queue_LinkedList.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Queue/Dequeue/Dequeue.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Queue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree/BinarySearchTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graphs/BFS Traversal cpp/BFSTraversal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graphs/DFS Traversal/DFSTraversal.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
