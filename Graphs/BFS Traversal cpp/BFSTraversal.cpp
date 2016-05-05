@@ -1,0 +1,64 @@
+//
+// Created by nikhi on 05-04-2016.
+//
+
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+#include <list>
+#include <algorithm>
+
+using namespace std;
+
+template <Typename T> class Graph{
+private:
+    int V;
+    list<int> *adj;
+public:
+    Graph(int V){
+        this->V = V;
+        adj = list<int>[V];
+    }
+
+    void addEdge(int v,int w){
+        adj[v].push_back(w);
+    }
+
+    void BFS(int v){
+        bool visited[V] = {false};
+        list<int> queue;
+
+        visited[v] = true;
+        queue.push_back(v);
+
+        list<int>::iterator i;
+
+        while(!queue.empty()){
+           int s = queue.front();
+           cout<<s<<" ";
+           queue.pop_front();
+
+           for(i=adj[v].begin();i!=adj[v].end();i++){
+               if(!visited[*i]){
+                   visited[*i] = true;
+                   queue.push_back(*i);
+               }
+           }
+        }
+
+    }
+};
+
+int main(){
+    Graph<int> g(5);
+    g.addEdge(1,2);
+    g.addEdge(4,3);
+    g.addEdge(4,3);
+    g.addEdge(4,2);
+    g.addEdge(3,1);
+    g.addEdge(2,3);
+
+    g.BFS(2);
+    return 0;
+}
+
