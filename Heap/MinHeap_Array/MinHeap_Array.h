@@ -4,8 +4,6 @@
 
 #ifndef ALGORITHMS_DATASTRUCTURE_MINHEAP_ARRAY_H
 #define ALGORITHMS_DATASTRUCTURE_MINHEAP_ARRAY_H
-#define INT_MAX 100
-#define INT_MIN -100
 #include <iostream>
 #include <c++/cstdlib>
 

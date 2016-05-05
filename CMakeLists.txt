@@ -21,7 +21,6 @@ set(SOURCE_FILES
 
         Queue/Priority Queue/Priority_queue_LinkedList.cpp
         Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp
-        Queue/queue_LinkedList.cpp
         Queue/Queue cpp/queue_LinkedList.cpp
         Queue/Dequeue/Dequeue.cpp
 
@@ -35,7 +34,7 @@ add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_Li
 add_executable(LinkedList "Linked List/Linked List cpp/LinkedList.cpp")
 add_executable(Dequeue "Queue/Dequeue/Dequeue.cpp")
 add_executable(BST "Tree/BinarySearchTree.cpp")
-add_executable(Queue_dynamic "Queue/queue_LinkedList.cpp")
+add_executable(Queue_dynamic "Queue/Queue cpp/queue_LinkedList.cpp")
 add_executable(Stack_dynamic "Stack/stack_linkedList.cpp")
 add_executable(Quick_sort "Sorting algos/Quick_sort/quick_sort.cpp")
 add_executable(Counting_sort "Sorting algos/Counting_sort/counting_sort.cpp")
