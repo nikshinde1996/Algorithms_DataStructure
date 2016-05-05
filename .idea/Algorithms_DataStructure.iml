@@ -10,9 +10,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Selection_sort/selection_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sorting algos/Quick_sort/quick_sort.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Linked List/Linked List cpp/LinkedList.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Linked List/DCirc LL cpp/DCirc_linkedlist.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Linked List/Circ Linked List cpp/Circ_linkedlist.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Queue" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Tree/BinarySearchTree/BST_Main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree/BinarySearchTree.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp" isTestSource="false" />

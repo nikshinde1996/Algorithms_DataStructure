@@ -25,35 +25,17 @@ set(SOURCE_FILES
         Queue/Dequeue/Dequeue.cpp
 
         Tree/BinarySearchTree.cpp
-<<<<<<< HEAD
-        Tree/BinarySearchTree/BST_Main.cpp
 
-        Linked List/Linked List cpp/LinkedList.cpp
+        Linked List/Circ Linked List cpp/Circ_linkedlist.cpp
+        Linked List/DCirc LL cpp/DCirc_linkedlist.cpp)
 
-        )
-
-add_executable(BSTMain Tree/BinarySearchTree/BST_Main.cpp)
 add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
 add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
 add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
 add_executable(DFS "Graphs/DFS Traversal/DFSTraversal.cpp")
 add_executable(Priority Queue "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
-add_executable(LinkedList "Linked List/Linked List cpp/LinkedList.cpp")
-=======
-        Queue/Priority Queue/Priority_queue_LinkedList.cpp
-        Graphs/BFS Traversal cpp/BFSTraversal.cpp
-        Graphs/DFS Traversal/DFSTraversal.cpp
-        Linked List/Circ Linked List cpp/Circ_linkedlist.cpp
-        Linked List/DCirc LL cpp/DCirc_linkedlist.cpp
-        )
-
-add_executable(DCircLL "Linked List/DCirc LL cpp/DCirc_linkedlist.cpp")
 add_executable(CircLL "Linked List/Circ Linked List cpp/Circ_linkedlist.cpp")
-add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp" "Linked List/Doubly Circular LinkedList app/Doubly_Circular_LinkedList.cpp")
-add_executable(DFS "Graphs/DFS Traversal/DFSTraversal.cpp")
-add_executable(Priority Queue "Queue/Priority Queue/Priority_queue_LinkedList.cpp")
-add_executable(LinkedList "Linked List/Linked List cpp/LinkedList.cpp" "Linked List/DCirc LL cpp/DCirc_ll.cpp")
->>>>>>> upstream/master
+add_executable(DCircLL "Linked List/DCirc LL cpp/DCirc_linkedlist.cpp")
 add_executable(Dequeue "Queue/Dequeue/Dequeue.cpp")
 add_executable(BST "Tree/BinarySearchTree.cpp")
 add_executable(Queue_dynamic "Queue/Queue cpp/queue_LinkedList.cpp")
