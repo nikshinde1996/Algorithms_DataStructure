@@ -9,7 +9,6 @@
 
 using namespace std;
 
-
 template <class T> class BinarySearchTree{
      public:
 
@@ -17,7 +16,7 @@ template <class T> class BinarySearchTree{
          T data;
          node * leftnode;
          node * rightnode;
-     };
+     } *root=NULL,*temp,*q;
 
      BinarySearchTree(){}
      ~BinarySearchTree(){}
@@ -26,8 +25,16 @@ template <class T> class BinarySearchTree{
     void Insert(T val){}
     void Delete(T val){}
     void Search(T val){}
+    void Height(){}
+    void Diameter(){}
+    void Inorder(){}
+    void Preorder(){}
+    void Postorder(){}
+
 };
+
 int main(){
+
 
     int choice;
     do{
@@ -37,7 +44,6 @@ int main(){
 
         switch(choice){
             case 1:
-
                 break;
 
             case 2:
