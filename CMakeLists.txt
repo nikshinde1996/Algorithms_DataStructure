@@ -27,11 +27,14 @@ set(SOURCE_FILES
         Tree/BinarySearchTree.cpp
 
         Linked List/Circ Linked List cpp/Circ_linkedlist.cpp
-        Linked List/DCirc LL cpp/DCirc_linkedlist.cpp)
+        Linked List/DCirc LL cpp/DCirc_linkedlist.cpp
 
+        Graphs/BFS Traversal cpp/BFSTraversal.cpp
+        Graphs/DFS Traversal/DFSTraversal.cpp)
+
+add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
 add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
 add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
-add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
 add_executable(DFS "Graphs/DFS Traversal/DFSTraversal.cpp")
 add_executable(Priority Queue "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
 add_executable(CircLL "Linked List/Circ Linked List cpp/Circ_linkedlist.cpp")
