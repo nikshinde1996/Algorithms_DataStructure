@@ -3,8 +3,6 @@ project(Algorithms_DataStructure)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-
-set(SOURCE_FILES Heap/MinHeap_Array/MinHeap_Array_Main.cpp Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp "Sorting algos/Selection_sort/selection_sort.cpp" "Sorting algos/Insertion_sort/insertion_sort.cpp" "Sorting algos/Counting_sort/counting_sort.cpp" "Sorting algos/Bubble_sort/bubble_sort.cpp" )
 set(SOURCE_FILES
         Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp
         Heap/MinHeap_Array/MinHeap_Array.h
@@ -18,23 +16,26 @@ set(SOURCE_FILES
         Sorting algos/Heap_sort/heap_sort.cpp
         Sorting algos/Counting_sort/counting_sort.cpp
         Sorting algos/Merge_sort/merge_sort.cpp
+
         Stack/stack_linkedList.cpp
+
+        Queue/Priority Queue/Priority_queue_LinkedList.cpp
+        Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp
         Queue/Queue cpp/queue_LinkedList.cpp
         Queue/Dequeue/Dequeue.cpp
-        Tree/BinarySearchTree.cpp
-        Queue/Priority Queue/Priority_queue_LinkedList.cpp
-        Graphs/BFS Traversal cpp/BFSTraversal.cpp
-        Graphs/DFS Traversal/DFSTraversal.cpp
-        Linked List/Circ Linked List cpp/Circ_linkedlist.cpp
-        Linked List/DCirc LL cpp/DCirc_linkedlist.cpp
-        )
 
-add_executable(DCircLL "Linked List/DCirc LL cpp/DCirc_linkedlist.cpp")
-add_executable(CircLL "Linked List/Circ Linked List cpp/Circ_linkedlist.cpp")
-add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp" "Linked List/Doubly Circular LinkedList app/Doubly_Circular_LinkedList.cpp")
+        Tree/BinarySearchTree.cpp
+
+        Linked List/Circ Linked List cpp/Circ_linkedlist.cpp
+        Linked List/DCirc LL cpp/DCirc_linkedlist.cpp)
+
+add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
+add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
+add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
 add_executable(DFS "Graphs/DFS Traversal/DFSTraversal.cpp")
-add_executable(Priority Queue "Queue/Priority Queue/Priority_queue_LinkedList.cpp")
-add_executable(LinkedList "Linked List/Linked List cpp/LinkedList.cpp" "Linked List/DCirc LL cpp/DCirc_ll.cpp")
+add_executable(Priority Queue "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
+add_executable(CircLL "Linked List/Circ Linked List cpp/Circ_linkedlist.cpp")
+add_executable(DCircLL "Linked List/DCirc LL cpp/DCirc_linkedlist.cpp")
 add_executable(Dequeue "Queue/Dequeue/Dequeue.cpp")
 add_executable(BST "Tree/BinarySearchTree.cpp")
 add_executable(Queue_dynamic "Queue/Queue cpp/queue_LinkedList.cpp")

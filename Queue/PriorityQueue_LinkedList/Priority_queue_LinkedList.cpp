@@ -85,7 +85,7 @@ public:
 
     void Display(){
         if(head == NULL){
-            cout<<"Priority Queue is allready empty."<<endl;
+            cout<<"PriorityQueue_LinkedList is allready empty."<<endl;
             return;
         }else{
             node* q = head;
