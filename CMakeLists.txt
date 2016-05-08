@@ -16,6 +16,8 @@ set(SOURCE_FILES
         Sorting algos/Heap_sort/heap_sort.cpp
         Sorting algos/Counting_sort/counting_sort.cpp
         Sorting algos/Merge_sort/merge_sort.cpp
+        Sorting algos/Radix_sort/radix_sort.cpp
+        Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp
 
         Stack/stack_linkedList.cpp
 
@@ -32,6 +34,9 @@ set(SOURCE_FILES
         Graphs/BFS Traversal cpp/BFSTraversal.cpp
         Graphs/DFS Traversal/DFSTraversal.cpp)
 
+
+add_executable(BucketSort "Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp")
+add_executable(RadixSort "Sorting algos/Radix_sort/radix_sort.cpp")
 add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
 add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
 add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
