@@ -36,9 +36,12 @@ set(SOURCE_FILES
         Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp
         Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp
         Graphs/Adjacency List/Adjacency_list.c
+
+        Important algos/Cycle Detection/Graph_Cycle_Detection.cpp
         )
 
-add_executable(Adj_List "Graphs/Adjacency List/Adjacency_list.c")
+add_executable(CycleDectection "Important algos/Cycle Detection/Graph_Cycle_Detection.cpp")
+add_executable(Adj_List "Graphs/Adjacency List/Adjacency_list.c" "Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" "Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.h")
 add_executable(Kruskals "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp")
 add_executable(Prims "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp")
 add_executable(BucketSort "Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp")
