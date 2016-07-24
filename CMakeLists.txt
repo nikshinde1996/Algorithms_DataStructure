@@ -34,13 +34,16 @@ set(SOURCE_FILES
         Graphs/BFS Traversal cpp/BFSTraversal.cpp
         Graphs/DFS Traversal/DFSTraversal.cpp
         Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp
-        Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp)
+        Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp
+        Graphs/Adjacency List/Adjacency_list.c
+        )
 
+add_executable(Adj_List "Graphs/Adjacency List/Adjacency_list.c")
 add_executable(Kruskals "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp")
 add_executable(Prims "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp")
 add_executable(BucketSort "Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp")
 add_executable(RadixSort "Sorting algos/Radix_sort/radix_sort.cpp")
-add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp" "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp" "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.h" "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp" "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.h")
+add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp" "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp" "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.h" "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp" "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.h" "Graphs/Adjacency List/Adjacency_List.c")
 add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
 add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
 add_executable(DFS "Graphs/DFS Traversal/DFSTraversal.cpp")
