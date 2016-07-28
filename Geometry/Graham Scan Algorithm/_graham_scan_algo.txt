@@ -1,10 +1,11 @@
 
 
       If set of points are given in  a plane .... Convex hull is the smallest polygon that contains all the points enclosed in it.
-      using this graham scan algorithm we can find it int O(nlogn) time rather than Jarvis algorithm which does it in O(n^2) time.
+      using this graham scan algorithm we can find such convex hull in O(nlogn) time rather than Jarvis algorithm which does it in O(n^2) time.
 
       Algorithm :
 
+         Let p[0....n-1] be input array...
       1) Find the bottom-most point by comparing y coordinate of all points. If there are two points with same y value, then the point
          with smaller x coordinate value is considered. Let the bottom-most point be P0. Put P0 at first position in output hull.
       2) Consider the remaining n-1 points and sort them by polor angle in counterclockwise order around points[0]. If polor angle of two
