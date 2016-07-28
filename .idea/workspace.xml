@@ -3,22 +3,22 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
       <config projectName="Algorithms_DataStructure" targetName="Bubble_sort" />
-      <config projectName="Algorithms_DataStructure" targetName="MinHeapArray" />
       <config projectName="Algorithms_DataStructure" targetName="Cycle_Detection" />
+      <config projectName="Algorithms_DataStructure" targetName="MinHeapArray" />
       <config projectName="Algorithms_DataStructure" targetName="Algorithms_DataStructure" />
       <config projectName="Algorithms_DataStructure" targetName="Merge_Sorting" />
       <config projectName="Algorithms_DataStructure" targetName="Insertion_sort" />
       <config projectName="Algorithms_DataStructure" targetName="Circular" />
       <config projectName="Algorithms_DataStructure" targetName="Radix" />
       <config projectName="Algorithms_DataStructure" targetName="DCircLL" />
-      <config projectName="Algorithms_DataStructure" targetName="Doubly_Cic" />
       <config projectName="Algorithms_DataStructure" targetName="RadixSort" />
+      <config projectName="Algorithms_DataStructure" targetName="Doubly_Cic" />
       <config projectName="Algorithms_DataStructure" targetName="CircLL" />
       <config projectName="Algorithms_DataStructure" targetName="CycleDectection" />
       <config projectName="Algorithms_DataStructure" targetName="Prims" />
       <config projectName="Algorithms_DataStructure" targetName="Quick_sort" />
-      <config projectName="Algorithms_DataStructure" targetName="Stack_dynamic" />
       <config projectName="Algorithms_DataStructure" targetName="Dequeue" />
+      <config projectName="Algorithms_DataStructure" targetName="Stack_dynamic" />
       <config projectName="Algorithms_DataStructure" targetName="Kruskals" />
       <config projectName="Algorithms_DataStructure" targetName="BucketSort" />
       <config projectName="Algorithms_DataStructure" targetName="Heap_sort" />
@@ -43,9 +43,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7839df8-608a-42f9-b806-dbb78fa18f14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="Algorithms_DataStructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +77,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph_Cycle_Detection.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp">
+      <file leaf-file-name="_graham_scan_algo.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_GrahamScan_algo.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -86,45 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kruskals_minimumSpanningTree.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp">
+      <file leaf-file-name="_GrahamScan_algo.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adjacency_List.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphs/Adjacency List/Adjacency_List.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BFSTraversal.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphs/BFS Traversal cpp/BFSTraversal.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DFSTraversal.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphs/DFS Traversal/DFSTraversal.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,6 +144,9 @@
         <option value="$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp" />
+        <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt" />
+        <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h" />
+        <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" />
       </list>
     </option>
   </component>
@@ -235,25 +215,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Important algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemId" value="Geometry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Important algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cycle Detection" />
+              <option name="myItemId" value="Graham Scan Algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -824,7 +790,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469350648293</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-०००३४" summary="Algo for cycle detection  in graphs">
+      <created>1469360821891</created>
+      <option name="number" value="०००३४" />
+      <option name="presentableId" value="LOCAL-०००३४" />
+      <option name="project" value="LOCAL" />
+      <updated>1469360821891</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -842,22 +815,22 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18675596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.003220612" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.003220612" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252818" sideWeight="0.5029762" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3188406" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3188406" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -872,7 +845,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Counting_sort added" />
     <MESSAGE value="CMakeList updated" />
     <MESSAGE value="Macro definations added" />
     <MESSAGE value="Merge_sort added" />
@@ -897,7 +869,8 @@
     <MESSAGE value="Prims Algo added" />
     <MESSAGE value="Kruskals Algo added" />
     <MESSAGE value="Adjacency List for Graphs added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjacency List for Graphs added" />
+    <MESSAGE value="Algo for cycle detection  in graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo for cycle detection  in graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -906,28 +879,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1138,7 +1089,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/BFS Traversal cpp/BFSTraversal.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="323">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
@@ -1146,7 +1097,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/DFS Traversal/DFSTraversal.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="289">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
@@ -1154,7 +1105,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state relative-caret-position="680">
           <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -1166,13 +1117,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/Adjacency List/Adjacency_List.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
+        <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1180,26 +1130,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.h">
+    <entry file="file://$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.h" />
+    <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.h" />
+    <entry file="file://$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" />
+    <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1212,10 +1149,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp">
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
