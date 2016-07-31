@@ -1,0 +1,12 @@
+1_  This algorithm is used to find the convex hull of the points in the plane.
+2_  The complexity of algorithm is O(n^2)... and is less efficient than grahamscan algo as it takes all points in
+      the calculations.
+
+Algorithm :
+         can go by any orientation .
+         say (counter-clockwise)
+         1> start with p which is leftmost point.
+         2> - choose q point such that orientation(p,q,r) is counterclockwise and r is remaining points in the space other than
+              the points added in the hull.
+            -  add q in the hull .
+            - let p = q and continue till all the remaining points are covered.

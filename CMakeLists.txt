@@ -41,8 +41,10 @@ set(SOURCE_FILES
 
         Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp
         Geometry/Line Segment/LinesIntersect.cpp
+        Geometry/Jarvis March Algorithm/JarvisMarch.cpp
         )
 
+add_executable(Jarvis "Geometry/Jarvis March Algorithm/JarvisMarch.cpp")
 add_executable(LinesIntersect "Geometry/Line Segment/LinesIntersect.cpp")
 add_executable(GrahamScan "Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp")
 add_executable(CycleDectection "Important algos/Cycle Detection/Graph_Cycle_Detection.cpp")

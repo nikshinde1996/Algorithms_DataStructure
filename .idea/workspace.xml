@@ -10,6 +10,7 @@
       <config projectName="Algorithms_DataStructure" targetName="Insertion_sort" />
       <config projectName="Algorithms_DataStructure" targetName="Circular" />
       <config projectName="Algorithms_DataStructure" targetName="LinesIntersect" />
+      <config projectName="Algorithms_DataStructure" targetName="Jarvis" />
       <config projectName="Algorithms_DataStructure" targetName="Radix" />
       <config projectName="Algorithms_DataStructure" targetName="DCircLL" />
       <config projectName="Algorithms_DataStructure" targetName="RadixSort" />
@@ -45,12 +46,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7839df8-608a-42f9-b806-dbb78fa18f14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" afterPath="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp" afterPath="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt" afterPath="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt" />
     </list>
     <ignored path="Algorithms_DataStructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +73,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+            <state relative-caret-position="-46">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -84,28 +83,18 @@
       <file leaf-file-name="Jarvis_March_algo.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JarvisMarch.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JarvisMarch.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinesIntersect.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="70">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -150,8 +139,10 @@
         <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h" />
         <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt" />
         <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp" />
+        <option value="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp" />
       </list>
     </option>
   </component>
@@ -242,6 +233,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Geometry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graham Scan Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -254,7 +263,7 @@
       <recent name="C:\Users\nikhi\ClionProjects\Algorithms_DataStructure\Queue\Queue cpp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinesIntersect">
+  <component name="RunManager" selected="Application.Jarvis">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Algorithms_DataStructure" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -536,7 +545,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="30">
+    <configuration default="false" name="Jarvis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Jarvis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Jarvis">
+      <envs />
+      <method />
+    </configuration>
+    <list size="31">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.MaxHeapArray" />
       <item index="2" class="java.lang.String" itemvalue="Application.MinHeapArray" />
@@ -567,6 +580,7 @@
       <item index="27" class="java.lang.String" itemvalue="Application.CycleDectection" />
       <item index="28" class="java.lang.String" itemvalue="Application.GrahamScan" />
       <item index="29" class="java.lang.String" itemvalue="Application.LinesIntersect" />
+      <item index="30" class="java.lang.String" itemvalue="Application.Jarvis" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -842,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469754354656</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-०००३८" summary="Algo to find if lines intersect">
+      <created>1469967993059</created>
+      <option name="number" value="०००३८" />
+      <option name="presentableId" value="LOCAL-०००३८" />
+      <option name="project" value="LOCAL" />
+      <updated>1469967993059</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -890,7 +911,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Macro definations added" />
     <MESSAGE value="Merge_sort added" />
     <MESSAGE value="Quick_sort added" />
     <MESSAGE value="Stack using linked list added" />
@@ -915,7 +935,8 @@
     <MESSAGE value="Adjacency List for Graphs added" />
     <MESSAGE value="Algo for cycle detection  in graphs" />
     <MESSAGE value="Graham Scan algorithm for convex hull" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graham Scan algorithm for convex hull" />
+    <MESSAGE value="Algo to find if lines intersect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo to find if lines intersect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1164,51 +1185,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h" />
-    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt">
+    <entry file="file://$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
-          <folding>
-            <element signature="e#1#20#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="137">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        <state relative-caret-position="-46">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp">
+    <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="70">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
