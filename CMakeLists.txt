@@ -40,8 +40,10 @@ set(SOURCE_FILES
         Important algos/Cycle Detection/Graph_Cycle_Detection.cpp
 
         Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp
+        Geometry/Line Segment/LinesIntersect.cpp
         )
 
+add_executable(LinesIntersect "Geometry/Line Segment/LinesIntersect.cpp")
 add_executable(GrahamScan "Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp")
 add_executable(CycleDectection "Important algos/Cycle Detection/Graph_Cycle_Detection.cpp")
 add_executable(Adj_List "Graphs/Adjacency List/Adjacency_list.c" "Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" "Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.h")

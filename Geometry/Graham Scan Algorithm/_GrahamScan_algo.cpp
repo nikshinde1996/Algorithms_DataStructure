@@ -76,7 +76,7 @@ void convexHull(Point p[],int n){
 
    // swap first point w.r.t.x first point or _p_
 
-    qsort(&p[1],n-1, sizeof(Point),compare);
+    qsort(&p[1],n-1, sizeof(Point),compare);    // sort the array as per _p_ reference point
     int m = 1;  // Initial size of modified array
     for(int i=1;i<n;i++){
         while(i<n-1 && orientation(p[0],p[i],p[i+1])==0){
@@ -98,7 +98,7 @@ void convexHull(Point p[],int n){
 
     while(!s.empty()){
         Point p = s.top();
-        cout<<"( "<<p.x<<","<<p.y<<" )"<<endl;
+        cout<<"("<<p.x<<","<<p.y<<")"<<endl;
         s.pop();
     }
 }
