@@ -32,12 +32,28 @@ set(SOURCE_FILES
         Linked List/DCirc LL cpp/DCirc_linkedlist.cpp
 
         Graphs/BFS Traversal cpp/BFSTraversal.cpp
-        Graphs/DFS Traversal/DFSTraversal.cpp)
+        Graphs/DFS Traversal/DFSTraversal.cpp
+        Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp
+        Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp
+        Graphs/Adjacency List/Adjacency_list.c
 
+        Important algos/Cycle Detection/Graph_Cycle_Detection.cpp
 
+        Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp
+        Geometry/Line Segment/LinesIntersect.cpp
+        Geometry/Jarvis March Algorithm/JarvisMarch.cpp
+        )
+
+add_executable(Jarvis "Geometry/Jarvis March Algorithm/JarvisMarch.cpp")
+add_executable(LinesIntersect "Geometry/Line Segment/LinesIntersect.cpp")
+add_executable(GrahamScan "Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp")
+add_executable(CycleDectection "Important algos/Cycle Detection/Graph_Cycle_Detection.cpp")
+add_executable(Adj_List "Graphs/Adjacency List/Adjacency_list.c" "Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" "Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.h")
+add_executable(Kruskals "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp")
+add_executable(Prims "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp")
 add_executable(BucketSort "Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp")
 add_executable(RadixSort "Sorting algos/Radix_sort/radix_sort.cpp")
-add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp")
+add_executable(BFS "Graphs/BFS Traversal cpp/BFSTraversal.cpp" "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp" "Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.h" "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp" "Graphs/Prims Algorithm/PrimsMinimumSpanningTree.h" "Graphs/Adjacency List/Adjacency_List.c")
 add_executable(PriorityQueueBST "Queue/PriorityQueue_BST/PriorityQueue_BST_Main.cpp")
 add_executable(PriorityQueueLL "Queue/PriorityQueue_LinkedList/Priority_queue_LinkedList.cpp")
 add_executable(DFS "Graphs/DFS Traversal/DFSTraversal.cpp")

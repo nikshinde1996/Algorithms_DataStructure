@@ -2,16 +2,41 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
+      <config projectName="Algorithms_DataStructure" targetName="BFS" />
+      <config projectName="Algorithms_DataStructure" targetName="Circular" />
+      <config projectName="Algorithms_DataStructure" targetName="LinkedList" />
+      <config projectName="Algorithms_DataStructure" targetName="LinesIntersect" />
+      <config projectName="Algorithms_DataStructure" targetName="BucketSort" />
+      <config projectName="Algorithms_DataStructure" targetName="BST" />
+      <config projectName="Algorithms_DataStructure" targetName="RadixSort" />
+      <config projectName="Algorithms_DataStructure" targetName="GrahamScan" />
+      <config projectName="Algorithms_DataStructure" targetName="Adj_List" />
+      <config projectName="Algorithms_DataStructure" targetName="Cycle_Detection" />
+      <config projectName="Algorithms_DataStructure" targetName="DFS" />
+      <config projectName="Algorithms_DataStructure" targetName="Quick_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="PriorityQueueBST" />
+      <config projectName="Algorithms_DataStructure" targetName="Insertion_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="PriorityQueueLL" />
       <config projectName="Algorithms_DataStructure" targetName="Counting_sort" />
-      <config projectName="Algorithms_DataStructure" targetName="Bubble_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="Selection_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="Dequeue" />
+      <config projectName="Algorithms_DataStructure" targetName="Priority" />
+      <config projectName="Algorithms_DataStructure" targetName="CircLL" />
+      <config projectName="Algorithms_DataStructure" targetName="Radix" />
+      <config projectName="Algorithms_DataStructure" targetName="Doubly_Cic" />
       <config projectName="Algorithms_DataStructure" targetName="MinHeapArray" />
       <config projectName="Algorithms_DataStructure" targetName="Algorithms_DataStructure" />
-      <config projectName="Algorithms_DataStructure" targetName="Merge_Sorting" />
+      <config projectName="Algorithms_DataStructure" targetName="DCircLL" />
+      <config projectName="Algorithms_DataStructure" targetName="CycleDectection" />
       <config projectName="Algorithms_DataStructure" targetName="Heap_sort" />
-      <config projectName="Algorithms_DataStructure" targetName="Insertion_sort" />
-      <config projectName="Algorithms_DataStructure" targetName="Quick_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="Bubble_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="Kruskals" />
+      <config projectName="Algorithms_DataStructure" targetName="Jarvis" />
+      <config projectName="Algorithms_DataStructure" targetName="Prims" />
+      <config projectName="Algorithms_DataStructure" targetName="Queue_dynamic" />
+      <config projectName="Algorithms_DataStructure" targetName="Merge_Sorting" />
       <config projectName="Algorithms_DataStructure" targetName="MaxHeapArray" />
-      <config projectName="Algorithms_DataStructure" targetName="Selection_sort" />
+      <config projectName="Algorithms_DataStructure" targetName="Stack_dynamic" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -21,10 +46,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7839df8-608a-42f9-b806-dbb78fa18f14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting algos/Quick_sort/quick_sort.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" afterPath="$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" />
     </list>
     <ignored path="Algorithms_DataStructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,39 +67,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="merge_sort.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
+      <file leaf-file-name="Jarvis_March_algo.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-              <folding>
-                <element signature="e#42#61#0" expanded="true" />
-                <element signature="e#149#161#0" expanded="true" />
-                <element signature="e#749#761#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quick_sort.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorting algos/Quick_sort/quick_sort.cpp">
+      <file leaf-file-name="JarvisMarch.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-              <folding>
-                <element signature="e#42#61#0" expanded="true" />
-                <element signature="e#170#182#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,20 +113,46 @@
         <option value="$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array.h" />
         <option value="$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h" />
         <option value="$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Sorting algos/Quick_sort/quick_sort.cpp" />
+        <option value="$PROJECT_DIR$/Queue/queue_LinkedList.cpp" />
+        <option value="$PROJECT_DIR$/Stack/stack_linkedList.cpp" />
+        <option value="$PROJECT_DIR$/Queue/Dequeue/Dequeue.cpp" />
+        <option value="$PROJECT_DIR$/Queue/Priority Queue/Priority_queue_LinkedList.cpp" />
+        <option value="$PROJECT_DIR$/Graphs/BFS Traversal cpp/BFSTraversal.cpp" />
+        <option value="$PROJECT_DIR$/Graphs/DFS Traversal/DFSTraversal.cpp" />
+        <option value="$PROJECT_DIR$/Linked List/Linked List cpp/LinkedList.cpp" />
+        <option value="$PROJECT_DIR$/Linked List/LinkedList.txt" />
+        <option value="$PROJECT_DIR$/Linked List/Circular LinkedList cpp/CircularLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/Linked List/Circ Linked List cpp/Circ_linkedlist.cpp" />
+        <option value="$PROJECT_DIR$/Linked List/DCirc LL cpp/DCirc_linkedlist.cpp" />
+        <option value="$PROJECT_DIR$/Tree/BinarySearchTree.cpp" />
+        <option value="$PROJECT_DIR$/Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp" />
+        <option value="$PROJECT_DIR$/Sorting algos/Radix_sort/radix_sort.cpp" />
+        <option value="$PROJECT_DIR$/Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp" />
+        <option value="$PROJECT_DIR$/Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp" />
+        <option value="$PROJECT_DIR$/Graphs/Adjacency List/Adjacency_List.c" />
+        <option value="$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" />
+        <option value="$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp" />
+        <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h" />
+        <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt" />
+        <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" />
+        <option value="$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp" />
+        <option value="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -147,48 +188,6 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorting algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms_DataStructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorting algos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quick_sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -196,7 +195,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Quick_sort">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikhi\ClionProjects\Algorithms_DataStructure\Queue\Queue cpp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Jarvis">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Algorithms_DataStructure" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -362,11 +366,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Algorithms_DataStructure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Algorithms_DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Algorithms_DataStructure">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MaxHeapArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="MaxHeapArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="MaxHeapArray">
+    <configuration default="false" name="MaxHeapArray" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="MaxHeapArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="MaxHeapArray">
       <envs />
       <method />
     </configuration>
@@ -402,18 +402,122 @@
       <envs />
       <method />
     </configuration>
-    <list size="11">
+    <configuration default="false" name="Stack_dynamic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Stack_dynamic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Stack_dynamic">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Queue_dynamic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Queue_dynamic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Queue_dynamic">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="BST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="BST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Dequeue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Dequeue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Dequeue">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Priority" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Priority" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Priority">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DFS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="DFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="DFS">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BFS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="BFS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="BFS">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CircLL" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="CircLL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="CircLL">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DCircLL" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="DCircLL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="DCircLL">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PriorityQueueBST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="PriorityQueueBST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="PriorityQueueBST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PriorityQueueLL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="PriorityQueueLL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="PriorityQueueLL">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RadixSort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="RadixSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="RadixSort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Radix" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="RadixSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="RadixSort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BucketSort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="BucketSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="BucketSort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Prims" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Prims" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Prims">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Kruskals" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Kruskals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Kruskals">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Adj_List" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Adj_List" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Adj_List">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CycleDectection" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="CycleDectection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="CycleDectection">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GrahamScan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="GrahamScan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="GrahamScan">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinesIntersect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="LinesIntersect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="LinesIntersect">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Jarvis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="Jarvis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="Jarvis">
+      <envs />
+      <method />
+    </configuration>
+    <list size="31">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Algorithms_DataStructure" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MaxHeapArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MinHeapArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Bubble_sort" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Insertion_sort" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Selection_sort" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Counting_sort" />
-      <item index="8" class="java.lang.String" itemvalue="Application.Heap_sort" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Merge_Sorting" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Quick_sort" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MaxHeapArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MinHeapArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Bubble_sort" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Insertion_sort" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Selection_sort" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Counting_sort" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Heap_sort" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Merge_Sorting" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Quick_sort" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Stack_dynamic" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Queue_dynamic" />
+      <item index="12" class="java.lang.String" itemvalue="Application.BST" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Dequeue" />
+      <item index="14" class="java.lang.String" itemvalue="Application.Priority" />
+      <item index="15" class="java.lang.String" itemvalue="Application.DFS" />
+      <item index="16" class="java.lang.String" itemvalue="Application.BFS" />
+      <item index="17" class="java.lang.String" itemvalue="Application.CircLL" />
+      <item index="18" class="java.lang.String" itemvalue="Application.DCircLL" />
+      <item index="19" class="java.lang.String" itemvalue="Application.PriorityQueueBST" />
+      <item index="20" class="java.lang.String" itemvalue="Application.PriorityQueueLL" />
+      <item index="21" class="java.lang.String" itemvalue="Application.RadixSort" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Radix" />
+      <item index="23" class="java.lang.String" itemvalue="Application.BucketSort" />
+      <item index="24" class="java.lang.String" itemvalue="Application.Prims" />
+      <item index="25" class="java.lang.String" itemvalue="Application.Kruskals" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Adj_List" />
+      <item index="27" class="java.lang.String" itemvalue="Application.CycleDectection" />
+      <item index="28" class="java.lang.String" itemvalue="Application.GrahamScan" />
+      <item index="29" class="java.lang.String" itemvalue="Application.LinesIntersect" />
+      <item index="30" class="java.lang.String" itemvalue="Application.Jarvis" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -493,31 +597,250 @@
       <option name="project" value="LOCAL" />
       <updated>1462030559167</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-०००१०" summary="Quick_sort added">
+      <created>1462112148547</created>
+      <option name="number" value="०००१०" />
+      <option name="presentableId" value="LOCAL-०००१०" />
+      <option name="project" value="LOCAL" />
+      <updated>1462112148547</updated>
+    </task>
+    <task id="LOCAL-०००११" summary="Stack using linked list added">
+      <created>1462120146086</created>
+      <option name="number" value="०००११" />
+      <option name="presentableId" value="LOCAL-०००११" />
+      <option name="project" value="LOCAL" />
+      <updated>1462120146086</updated>
+    </task>
+    <task id="LOCAL-०००१२" summary="Stack using linked list added">
+      <created>1462120269098</created>
+      <option name="number" value="०००१२" />
+      <option name="presentableId" value="LOCAL-०००१२" />
+      <option name="project" value="LOCAL" />
+      <updated>1462120269098</updated>
+    </task>
+    <task id="LOCAL-०००१३" summary="Stack using linked list added">
+      <created>1462121609171</created>
+      <option name="number" value="०००१३" />
+      <option name="presentableId" value="LOCAL-०००१३" />
+      <option name="project" value="LOCAL" />
+      <updated>1462121609171</updated>
+    </task>
+    <task id="LOCAL-०००१४" summary="Queue using linked list added">
+      <created>1462178349670</created>
+      <option name="number" value="०००१४" />
+      <option name="presentableId" value="LOCAL-०००१४" />
+      <option name="project" value="LOCAL" />
+      <updated>1462178349670</updated>
+    </task>
+    <task id="LOCAL-०००१५" summary="Binary Search Tree added">
+      <created>1462287898391</created>
+      <option name="number" value="०००१५" />
+      <option name="presentableId" value="LOCAL-०००१५" />
+      <option name="project" value="LOCAL" />
+      <updated>1462287898391</updated>
+    </task>
+    <task id="LOCAL-०००१६" summary="Linked List added">
+      <created>1462372048601</created>
+      <option name="number" value="०००१६" />
+      <option name="presentableId" value="LOCAL-०००१६" />
+      <option name="project" value="LOCAL" />
+      <updated>1462372048601</updated>
+    </task>
+    <task id="LOCAL-०००१७" summary="LinkedList added">
+      <created>1462373003280</created>
+      <option name="number" value="०००१७" />
+      <option name="presentableId" value="LOCAL-०००१७" />
+      <option name="project" value="LOCAL" />
+      <updated>1462373003280</updated>
+    </task>
+    <task id="LOCAL-०००१८" summary="Dequeue added">
+      <created>1462373049632</created>
+      <option name="number" value="०००१८" />
+      <option name="presentableId" value="LOCAL-०००१८" />
+      <option name="project" value="LOCAL" />
+      <updated>1462373049632</updated>
+    </task>
+    <task id="LOCAL-०००१९" summary="Priority queue using LinkedList added">
+      <created>1462375871067</created>
+      <option name="number" value="०००१९" />
+      <option name="presentableId" value="LOCAL-०००१९" />
+      <option name="project" value="LOCAL" />
+      <updated>1462375871067</updated>
+    </task>
+    <task id="LOCAL-०००२०" summary="Queue using linkedlist added">
+      <created>1462419751214</created>
+      <option name="number" value="०००२०" />
+      <option name="presentableId" value="LOCAL-०००२०" />
+      <option name="project" value="LOCAL" />
+      <updated>1462419751214</updated>
+    </task>
+    <task id="LOCAL-०००२१" summary="DFS and BFS traversals for graphs added">
+      <created>1462420883443</created>
+      <option name="number" value="०००२१" />
+      <option name="presentableId" value="LOCAL-०००२१" />
+      <option name="project" value="LOCAL" />
+      <updated>1462420883449</updated>
+    </task>
+    <task id="LOCAL-०००२२" summary="BFS and DFS for graphs added">
+      <created>1462422654167</created>
+      <option name="number" value="०००२२" />
+      <option name="presentableId" value="LOCAL-०००२२" />
+      <option name="project" value="LOCAL" />
+      <updated>1462422654167</updated>
+    </task>
+    <task id="LOCAL-०००२३" summary="DFSand BFS for graphs added">
+      <created>1462438023553</created>
+      <option name="number" value="०००२३" />
+      <option name="presentableId" value="LOCAL-०००२३" />
+      <option name="project" value="LOCAL" />
+      <updated>1462438023554</updated>
+    </task>
+    <task id="LOCAL-०००२४" summary="Circular LinkedList added">
+      <created>1462451598301</created>
+      <option name="number" value="०००२४" />
+      <option name="presentableId" value="LOCAL-०००२४" />
+      <option name="project" value="LOCAL" />
+      <updated>1462451598301</updated>
+    </task>
+    <task id="LOCAL-०००२५" summary="Doubly Circular Linked List added">
+      <created>1462451639557</created>
+      <option name="number" value="०००२५" />
+      <option name="presentableId" value="LOCAL-०००२५" />
+      <option name="project" value="LOCAL" />
+      <updated>1462451639557</updated>
+    </task>
+    <task id="LOCAL-०००२६" summary="Updated">
+      <created>1462451672277</created>
+      <option name="number" value="०००२६" />
+      <option name="presentableId" value="LOCAL-०००२६" />
+      <option name="project" value="LOCAL" />
+      <updated>1462451672277</updated>
+    </task>
+    <task id="LOCAL-०००२७" summary="DFS and BFS added">
+      <created>1462525847050</created>
+      <option name="number" value="०००२७" />
+      <option name="presentableId" value="LOCAL-०००२७" />
+      <option name="project" value="LOCAL" />
+      <updated>1462525847050</updated>
+    </task>
+    <task id="LOCAL-०००२८" summary="Binary Search Tree added">
+      <created>1462528024705</created>
+      <option name="number" value="०००२८" />
+      <option name="presentableId" value="LOCAL-०००२८" />
+      <option name="project" value="LOCAL" />
+      <updated>1462528024705</updated>
+    </task>
+    <task id="LOCAL-०००२९" summary="Bucket_sort  added">
+      <created>1462721311066</created>
+      <option name="number" value="०००२९" />
+      <option name="presentableId" value="LOCAL-०००२९" />
+      <option name="project" value="LOCAL" />
+      <updated>1462721311067</updated>
+    </task>
+    <task id="LOCAL-०००३०" summary="Radix_sort commited">
+      <created>1462889045762</created>
+      <option name="number" value="०००३०" />
+      <option name="presentableId" value="LOCAL-०००३०" />
+      <option name="project" value="LOCAL" />
+      <updated>1462889045762</updated>
+    </task>
+    <task id="LOCAL-०००३१" summary="Prims Algo added">
+      <created>1467203145777</created>
+      <option name="number" value="०००३१" />
+      <option name="presentableId" value="LOCAL-०००३१" />
+      <option name="project" value="LOCAL" />
+      <updated>1467203145777</updated>
+    </task>
+    <task id="LOCAL-०००३२" summary="Kruskals Algo added">
+      <created>1467207401656</created>
+      <option name="number" value="०००३२" />
+      <option name="presentableId" value="LOCAL-०००३२" />
+      <option name="project" value="LOCAL" />
+      <updated>1467207401656</updated>
+    </task>
+    <task id="LOCAL-०००३३" summary="Adjacency List for Graphs added">
+      <created>1469350648293</created>
+      <option name="number" value="०००३३" />
+      <option name="presentableId" value="LOCAL-०००३३" />
+      <option name="project" value="LOCAL" />
+      <updated>1469350648293</updated>
+    </task>
+    <task id="LOCAL-०००३४" summary="Algo for cycle detection  in graphs">
+      <created>1469360821891</created>
+      <option name="number" value="०००३४" />
+      <option name="presentableId" value="LOCAL-०००३४" />
+      <option name="project" value="LOCAL" />
+      <updated>1469360821891</updated>
+    </task>
+    <task id="LOCAL-०००३५" summary="Graham Scan algorithm for convex hull">
+      <created>1469728585930</created>
+      <option name="number" value="०००३५" />
+      <option name="presentableId" value="LOCAL-०००३५" />
+      <option name="project" value="LOCAL" />
+      <updated>1469728585930</updated>
+    </task>
+    <task id="LOCAL-०००३६" summary="Graham Scan algorithm for convex hull">
+      <created>1469730517644</created>
+      <option name="number" value="०००३६" />
+      <option name="presentableId" value="LOCAL-०००३६" />
+      <option name="project" value="LOCAL" />
+      <updated>1469730517644</updated>
+    </task>
+    <task id="LOCAL-०००३७" summary="Graham Scan algorithm for convex hull">
+      <created>1469754354656</created>
+      <option name="number" value="०००३७" />
+      <option name="presentableId" value="LOCAL-०००३७" />
+      <option name="project" value="LOCAL" />
+      <updated>1469754354656</updated>
+    </task>
+    <task id="LOCAL-०००३८" summary="Algo to find if lines intersect">
+      <created>1469967993059</created>
+      <option name="number" value="०००३८" />
+      <option name="presentableId" value="LOCAL-०००३८" />
+      <option name="project" value="LOCAL" />
+      <updated>1469967993059</updated>
+    </task>
+    <task id="LOCAL-०००३९" summary="Jarvis March algorithm added">
+      <created>1469970764353</created>
+      <option name="number" value="०००३९" />
+      <option name="presentableId" value="LOCAL-०००३९" />
+      <option name="project" value="LOCAL" />
+      <updated>1469970764353</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16105418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.003220612" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252818" sideWeight="0.5029762" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32206118" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3188406" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -532,104 +855,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bubble_sort added" />
-    <MESSAGE value="Insertion_sort added" />
-    <MESSAGE value="Selection_sort added" />
-    <MESSAGE value="Counting_sort added" />
-    <MESSAGE value="CMakeList updated" />
-    <MESSAGE value="Macro definations added" />
-    <MESSAGE value="Merge_sort added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge_sort added" />
+    <MESSAGE value="Quick_sort added" />
+    <MESSAGE value="Stack using linked list added" />
+    <MESSAGE value="Queue using linked list added" />
+    <MESSAGE value="Linked List added" />
+    <MESSAGE value="LinkedList added" />
+    <MESSAGE value="Dequeue added" />
+    <MESSAGE value="Priority queue using LinkedList added" />
+    <MESSAGE value="Queue using linkedlist added" />
+    <MESSAGE value="DFS and BFS traversals for graphs added" />
+    <MESSAGE value="BFS and DFS for graphs added" />
+    <MESSAGE value="DFSand BFS for graphs added" />
+    <MESSAGE value="Circular LinkedList added" />
+    <MESSAGE value="Doubly Circular Linked List added" />
+    <MESSAGE value="Updated" />
+    <MESSAGE value="DFS and BFS added" />
+    <MESSAGE value="Binary Search Tree added" />
+    <MESSAGE value="Bucket_sort  added" />
+    <MESSAGE value="Radix_sort commited" />
+    <MESSAGE value="Prims Algo added" />
+    <MESSAGE value="Kruskals Algo added" />
+    <MESSAGE value="Adjacency List for Graphs added" />
+    <MESSAGE value="Algo for cycle detection  in graphs" />
+    <MESSAGE value="Graham Scan algorithm for convex hull" />
+    <MESSAGE value="Algo to find if lines intersect" />
+    <MESSAGE value="Jarvis March algorithm added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jarvis March algorithm added" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-            <element signature="e#149#161#0" expanded="true" />
-            <element signature="e#749#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-            <element signature="e#149#161#0" expanded="true" />
-            <element signature="e#749#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array_Main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/MinHeap_Array/MinHeap_Array.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -695,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -737,34 +989,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sorting algos/Merge_sort/merge_sort.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="375">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-            <element signature="e#149#161#0" expanded="true" />
-            <element signature="e#749#761#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting algos/Quick_sort/quick_sort.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-            <element signature="e#170#182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="443">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack/stack_linkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/Dequeue/Dequeue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="113" column="74" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/Priority Queue/Priority_queue_LinkedList.cpp" />
+    <entry file="file://$PROJECT_DIR$/Linked List/Linked List cpp/LinkedList.cpp" />
+    <entry file="file://$PROJECT_DIR$/Linked List/LinkedList.txt" />
+    <entry file="file://$PROJECT_DIR$/Linked List/Doubly Circular LinkedList app/Doubly_Circular_LinkedList.cpp" />
+    <entry file="file://$PROJECT_DIR$/Linked List/Circular LinkedList cpp/CircularLinkedList.cpp" />
+    <entry file="file://$PROJECT_DIR$/Linked List/Circ LL cpp/Doubly_circ_ll.cpp" />
+    <entry file="file://$PROJECT_DIR$/Linked List/DCirc LL cpp/DCirc_ll.cpp" />
+    <entry file="file://$PROJECT_DIR$/Queue/Queue cpp/queue_LinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linked List/DCirc LL cpp/DCirc_linkedlist.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linked List/Circ Linked List cpp/Circ_linkedlist.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/BinarySearchTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Bucket_sort/Bucket_sort cpp.cpp" />
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Bucket_sort/Bucket_sort cpp/bucket_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.h" />
+    <entry file="file://$PROJECT_DIR$/Graphs/Prims Algorithm/PrimsMinimumSpanningTree.h" />
+    <entry file="file://$PROJECT_DIR$/Sorting algos/Radix_sort/radix_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/BFS Traversal cpp/BFSTraversal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/DFS Traversal/DFSTraversal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Kruskals Algorithm/Kruskals_minimumSpanningTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Prims Algorithm/PrimsMinimumSpanningTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Adjacency List/Adjacency_List.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.h" />
+    <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.h" />
+    <entry file="file://$PROJECT_DIR$/Important algos/Dectect_Cycle_in_Graph/Cycle_Detection.cpp" />
+    <entry file="file://$PROJECT_DIR$/Important algos/Cycle Detection/Graph_Cycle_Detection.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.h" />
+    <entry file="file://$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_graham_scan_algo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
