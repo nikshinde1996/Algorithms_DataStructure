@@ -95,7 +95,7 @@ void get_size_iterative()
 /* Recursively calculates length
  * of the Linked List
  * [Calling Function - get_size_recursive()]
- * [Called Function  - get_size(struct node* t)]
+ * [Util Function  - get_size(struct node* t)]
 */
 void get_size_recursive()
 {
@@ -111,6 +111,50 @@ int get_size(struct node* t)
 		return 0;
 
 	return 1 + get_size(t->next);
+}
+
+/* Reverses Singly Linked List
+ * Iteratively
+*/ 
+void reverse_list_iterative() 
+{
+	struct node *head = start, *prev = NULL, *next;
+
+	while(head)
+	{
+		next = head->next;
+		head->next = prev;
+		prev = head;
+		head = next;
+	}
+	start = prev;
+}
+
+/* Reverses Singly Linked List
+ * Recursively
+ * [Calling function - reverse_list_recursive()]
+ * [Util function - reverse_util(struct node *current, struct node *prev)]
+*/
+void reverse_list_recursive()
+{
+	struct node *head = start;
+	if(head==NULL)
+		return;
+	reverse_util(head, NULL);
+}
+
+void reverse_util(struct node *current, struct node *prev) 
+{
+	if(current)
+	{
+		reverse_util(current->next, current);
+		current->next = prev;
+	}
+	else
+	{
+		start = prev;
+	}
+
 }
 
 void display_list()
@@ -146,7 +190,9 @@ int main()
 		printf("3. Size [Iterative]\n");
 		printf("4. Size [Recursive]\n");
 		printf("5. Display\n");
-		printf("6. Exit\n");
+		printf("6. Reverse [Iterative]\n");
+		printf("7. Reverse [Recursive]\n");
+		printf("8. Exit\n");
 		printf("Enter your choice: ");
 		scanf("%d",&choice);
 		switch(choice) 
@@ -170,8 +216,16 @@ int main()
 			case 5:
 				display_list();
 				break;
-
+			
 			case 6:
+				reverse_list_iterative();
+				break;
+			
+			case 7:
+				reverse_list_recursive();
+				break;
+
+			case 8:
 				exit(0);
 
 			default:
