@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 struct node
 {
@@ -76,7 +75,10 @@ void delete_node()
 
 }
 
-void get_size()
+/* Iteratively calculates length
+ * of the Linked List
+ */
+void get_size_iterative()
 {
 	int size = 0;
 	struct node *head = start;
@@ -88,6 +90,27 @@ void get_size()
 	}
 
 	printf("Size of current linked list: %d \n\n", size);
+}
+
+/* Recursively calculates length
+ * of the Linked List
+ * [Calling Function - get_size_recursive()]
+ * [Called Function  - get_size(struct node* t)]
+*/
+void get_size_recursive()
+{
+	struct node *head = start;
+	int size = get_size(head);
+
+	printf("Size of current linked list: %d\n\n", size);
+}
+
+int get_size(struct node* t) 
+{
+	if(t==NULL) 
+		return 0;
+
+	return 1 + get_size(t->next);
 }
 
 void display_list()
@@ -120,9 +143,10 @@ int main()
 		printf("Singly Linked List: \n");
 		printf("1. Insert\n");
 		printf("2. Delete\n");
-		printf("3. Size\n");
-		printf("4. Display\n");
-		printf("5. Exit\n");
+		printf("3. Size [Iterative]\n");
+		printf("4. Size [Recursive]\n");
+		printf("5. Display\n");
+		printf("6. Exit\n");
 		printf("Enter your choice: ");
 		scanf("%d",&choice);
 		switch(choice) 
@@ -136,14 +160,18 @@ int main()
 				break;
 
 			case 3:
-				get_size();
+				get_size_iterative();
 				break;
 
 			case 4:
-				display_list();
+				get_size_recursive();
 				break;
 
 			case 5:
+				display_list();
+				break;
+
+			case 6:
 				exit(0);
 
 			default:
