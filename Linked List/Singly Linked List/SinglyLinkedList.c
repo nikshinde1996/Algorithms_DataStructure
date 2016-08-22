@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 struct node
 {
@@ -76,7 +75,10 @@ void delete_node()
 
 }
 
-void get_size()
+/* Iteratively calculates length
+ * of the Linked List
+ */
+void get_size_iterative()
 {
 	int size = 0;
 	struct node *head = start;
@@ -88,6 +90,71 @@ void get_size()
 	}
 
 	printf("Size of current linked list: %d \n\n", size);
+}
+
+/* Recursively calculates length
+ * of the Linked List
+ * [Calling Function - get_size_recursive()]
+ * [Util Function  - get_size(struct node* t)]
+*/
+void get_size_recursive()
+{
+	struct node *head = start;
+	int size = get_size(head);
+
+	printf("Size of current linked list: %d\n\n", size);
+}
+
+int get_size(struct node* t) 
+{
+	if(t==NULL) 
+		return 0;
+
+	return 1 + get_size(t->next);
+}
+
+/* Reverses Singly Linked List
+ * Iteratively
+*/ 
+void reverse_list_iterative() 
+{
+	struct node *head = start, *prev = NULL, *next;
+
+	while(head)
+	{
+		next = head->next;
+		head->next = prev;
+		prev = head;
+		head = next;
+	}
+	start = prev;
+}
+
+/* Reverses Singly Linked List
+ * Recursively
+ * [Calling function - reverse_list_recursive()]
+ * [Util function - reverse_util(struct node *current, struct node *prev)]
+*/
+void reverse_list_recursive()
+{
+	struct node *head = start;
+	if(head==NULL)
+		return;
+	reverse_util(head, NULL);
+}
+
+void reverse_util(struct node *current, struct node *prev) 
+{
+	if(current)
+	{
+		reverse_util(current->next, current);
+		current->next = prev;
+	}
+	else
+	{
+		start = prev;
+	}
+
 }
 
 void display_list()
@@ -120,9 +187,12 @@ int main()
 		printf("Singly Linked List: \n");
 		printf("1. Insert\n");
 		printf("2. Delete\n");
-		printf("3. Size\n");
-		printf("4. Display\n");
-		printf("5. Exit\n");
+		printf("3. Size [Iterative]\n");
+		printf("4. Size [Recursive]\n");
+		printf("5. Display\n");
+		printf("6. Reverse [Iterative]\n");
+		printf("7. Reverse [Recursive]\n");
+		printf("8. Exit\n");
 		printf("Enter your choice: ");
 		scanf("%d",&choice);
 		switch(choice) 
@@ -136,14 +206,26 @@ int main()
 				break;
 
 			case 3:
-				get_size();
+				get_size_iterative();
 				break;
 
 			case 4:
-				display_list();
+				get_size_recursive();
 				break;
 
 			case 5:
+				display_list();
+				break;
+			
+			case 6:
+				reverse_list_iterative();
+				break;
+			
+			case 7:
+				reverse_list_recursive();
+				break;
+
+			case 8:
 				exit(0);
 
 			default:
