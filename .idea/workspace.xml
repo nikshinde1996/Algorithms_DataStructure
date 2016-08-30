@@ -21,10 +21,11 @@
       <config projectName="Algorithms_DataStructure" targetName="Quick_sort" />
       <config projectName="Algorithms_DataStructure" targetName="Dequeue" />
       <config projectName="Algorithms_DataStructure" targetName="Stack_dynamic" />
+      <config projectName="Algorithms_DataStructure" targetName="BoyerMoore" />
       <config projectName="Algorithms_DataStructure" targetName="Kruskals" />
       <config projectName="Algorithms_DataStructure" targetName="GrahamScan" />
-      <config projectName="Algorithms_DataStructure" targetName="Heap_sort" />
       <config projectName="Algorithms_DataStructure" targetName="BucketSort" />
+      <config projectName="Algorithms_DataStructure" targetName="Heap_sort" />
       <config projectName="Algorithms_DataStructure" targetName="DFS" />
       <config projectName="Algorithms_DataStructure" targetName="LinkedList" />
       <config projectName="Algorithms_DataStructure" targetName="BFS" />
@@ -46,7 +47,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7839df8-608a-42f9-b806-dbb78fa18f14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Important algos/Boyer-Moore Algorithm/BoyerMoore.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="Algorithms_DataStructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,31 +70,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoyerMoore.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Important algos/Boyer-Moore Algorithm/BoyerMoore.cpp">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Jarvis_March_algo.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JarvisMarch.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -138,8 +131,10 @@
         <option value="$PROJECT_DIR$/Geometry/Graham Scan Algorithm/_GrahamScan_algo.cpp" />
         <option value="$PROJECT_DIR$/Geometry/Line Segment/LinesIntersect.cpp" />
         <option value="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/Jarvis_March_algo.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp" />
+        <option value="$PROJECT_DIR$/Trie/Trie [java]/TrieImp.java" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Important algos/Boyer-Moore Algorithm/BoyerMoore.cpp" />
       </list>
     </option>
   </component>
@@ -150,10 +145,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1378" />
-    <option name="height" value="754" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -195,6 +189,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Important algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Important algos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boyer-Moore Algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,7 +523,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="31">
+    <configuration default="false" name="BoyerMoore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Algorithms_DataStructure" TARGET_NAME="BoyerMoore" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Algorithms_DataStructure" RUN_TARGET_NAME="BoyerMoore">
+      <envs />
+      <method />
+    </configuration>
+    <list size="32">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.MaxHeapArray" />
       <item index="2" class="java.lang.String" itemvalue="Application.MinHeapArray" />
@@ -529,6 +559,7 @@
       <item index="28" class="java.lang.String" itemvalue="Application.GrahamScan" />
       <item index="29" class="java.lang.String" itemvalue="Application.LinesIntersect" />
       <item index="30" class="java.lang.String" itemvalue="Application.Jarvis" />
+      <item index="31" class="java.lang.String" itemvalue="Application.BoyerMoore" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -825,7 +856,21 @@
       <option name="project" value="LOCAL" />
       <updated>1469981924270</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-०००४१" summary="to update">
+      <created>1472314597328</created>
+      <option name="number" value="०००४१" />
+      <option name="presentableId" value="LOCAL-०००४१" />
+      <option name="project" value="LOCAL" />
+      <updated>1472314597328</updated>
+    </task>
+    <task id="LOCAL-०००४२" summary="Trie in java added">
+      <created>1472317157786</created>
+      <option name="number" value="०००४२" />
+      <option name="presentableId" value="LOCAL-०००४२" />
+      <option name="project" value="LOCAL" />
+      <updated>1472317157786</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -838,14 +883,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+    <frame x="-7" y="0" width="1378" height="745" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18582089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.003215434" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.003267974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252818" sideWeight="0.5029762" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -873,8 +918,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quick_sort added" />
-    <MESSAGE value="Stack using linked list added" />
     <MESSAGE value="Queue using linked list added" />
     <MESSAGE value="Linked List added" />
     <MESSAGE value="LinkedList added" />
@@ -898,7 +941,9 @@
     <MESSAGE value="Graham Scan algorithm for convex hull" />
     <MESSAGE value="Algo to find if lines intersect" />
     <MESSAGE value="Jarvis March algorithm added" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="to update" />
+    <MESSAGE value="Trie in java added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie in java added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,36 +952,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Insertion_sort/insertion_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting algos/Counting_sort/counting_sort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/MaxHeap_Array/MaxHeap_Array_Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1151,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,18 +1183,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Trie/Trie.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trie/Trie [java]/TrieImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Geometry/Jarvis March Algorithm/JarvisMarch.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Important algos/Boyer-Moore Algorithm/BoyerMoore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Important algos/Boyer-Moore Algorithm/BoyerMoore.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
