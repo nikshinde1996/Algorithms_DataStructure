@@ -15,7 +15,7 @@ class TrieNode{
        count = 0;
     }
 
-    public TrieNode subNode(){
+    public TrieNode subNode(char c){
        if(childList != null){
           for(TrieNode eachChild : childList){
              if(eachChild.content == c)

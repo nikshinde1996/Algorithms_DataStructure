@@ -93,6 +93,50 @@ bool search_string()
     return (temp!=NULL && temp->isLeaf);
 }
 
+bool isItFreeNode(struct node *temp) {
+	int i;
+	for(i=0;i<NO_OF_ALPHABETS;i++) {
+		if(temp->next_char[i]) {
+			return false;
+		}
+	}
+	return true;
+}
+
+bool deletehelper(struct node *temp,char key[],int level,int len) {
+	if(temp) {
+		if(level == len) {
+			if(temp->isLeaf) {
+				temp->isLeaf = false;
+				if(isItFreeNode(temp)) {
+					return true;
+				}
+				return false;
+			}
+		}else {
+			int index = ((int)key[level]-(int)'a');
+			
+			if(deleteHelper(temp->next_char[index],key,level+1,len)) {
+				free(temp->next_char[index]);
+				return (!temp->isLeaf && isItFreeNode(temp));
+			}
+		}
+	}
+}
+
+void delete_string() {
+	struct node *temp = root;
+	int i,char_index,str_length;
+	char string[100];
+	printf("Delete String : ");
+	scanf("%s",&string);
+	str_length = strlen(string);
+	
+	if(str_length > 0) {
+	   deleteHelper(temp,string,0,str_length);	
+	}
+}
+
 int main()
 {
     int choice;
@@ -104,6 +148,7 @@ int main()
         printf("Trie: \n");
         printf("1. Insert\n");
         printf("2. Search\n");
+        printf("3. Delete\n");
         printf("3. Exit\n");
         printf("Enter: ");
         scanf("%d", &choice);
@@ -123,7 +168,12 @@ int main()
                     printf("String not present in trie ...\n\n");
                 break;
 
-            case 3:
+            case 3: 
+                delete_string();
+                printf("String deleted ...\n\n");
+                break;
+                
+            case 4:
                 exit(0);
 
             default:
