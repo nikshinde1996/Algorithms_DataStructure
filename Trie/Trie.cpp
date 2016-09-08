@@ -8,6 +8,7 @@ struct trieNode {
 	trieNode *children[26];
 	bool isLeaf;
 	bool isEOW;
+	string currStr;
 }
 
 trieNode *getNode() {
