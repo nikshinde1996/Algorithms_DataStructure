@@ -30,7 +30,7 @@ class Knapsack {
 			for(int j=0;j<=totalWeight;j++) {
 				if(i==0 || j==0) 
 					dp[i][j] = 0;
-				else if(weight[i-1]<=totalWeight)
+				else if(weight[i-1]<=j)
 					dp[i][j] = Math.max(value[i-1] + dp[i-1][j-weight[i-1]], dp[i-1][j]);
 				else
 					dp[i][j] = dp[i-1][j];
