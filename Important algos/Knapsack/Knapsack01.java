@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Knapsack {
+class Knapsack01 {
 	private static int[] value, weight;
 	private static int totalWeight = 7;
 
