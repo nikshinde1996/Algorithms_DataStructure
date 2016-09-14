@@ -69,9 +69,9 @@ void BinaryHeap::heapifydown(int index) {
 		child = child1;
 	}
 	if(child>0) {
-		int temp = heap[child];
-		heap[child] = heap[child1];
-		heap[child1] = temp; 
+		int temp = heap[in];
+		heap[in] = heap[child];
+		heap[child] = temp; 
 	    heapifydown(child);
 	}
 }
