@@ -1,0 +1,14 @@
+    4 ways to represent Graphs are :
+ 
+    1.  Edge List - This is basically the array  of edeges {{1,2},{3,4},{2,3},{5,4}}
+    
+    2.  Adjacency Matrix - This is the V*V Matrix which is having 2 values 1 and 0
+        if theres a edge in v1 and v2 then matrix[v1][v2] is 1 else 0
+    
+    3.  Adjacency List - This is combintion of Adjacency Matrix with edge list
+        The vertices in the list Store all the adjacent vertices .each member of 
+        list is basically the list that has all its adjacent vertices as its members.
+
+    4.  Incidence Matrix - Here the V*V matrix is created and each element is the 
+        value of edge . If theres no edge between vertices then the value is 
+        infinity.  

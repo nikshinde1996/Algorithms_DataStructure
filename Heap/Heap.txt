@@ -1,0 +1,24 @@
+Heap is a special kind of balanced binary tree in which the root-node key is 
+compared with its children and arranged accordingly
+
+Binary Heap :
+
+    1. Its a complete Tree
+    2. Its either Max heap or Min Heap [The child element is compared to the 
+        parent element and then property is satisfied.
+   
+Applications :
+    1. Heap Sort : This algo used heaping techniques for its working in O(nlogn)
+    2. Priority Queue : The PQ's can be successfully implemented using the Heaps
+    3. The graph Min Spanning Tree,DJKasatras algorithm questions can be
+       successfully implemented using Heaps. 
+    4. Many rpoblems like get Kth largest element in array,sort nearly sorted
+       array,Merge K sorted arrays,etc can be successfully implemented using heaps.
+
+Operations ;
+    
+    1. getMini()/getMaxi() :
+    2. extractMin()/extractMax() :
+    3. decreaseKey() :
+    4. insert() :
+    5. delete() :
