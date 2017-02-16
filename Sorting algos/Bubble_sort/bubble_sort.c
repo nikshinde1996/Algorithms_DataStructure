@@ -39,9 +39,7 @@ void print_array(int *array, int n) {
 int main()
 {
     int array[] = {6, 5, 4, 3, 2, 1};
-    void print_array(int*, int);
-    void bubble_sort(int *, int);
-
+    
     int n = SIZE(array);
     print_array(array, n);
     bubble_sort(array, n);
