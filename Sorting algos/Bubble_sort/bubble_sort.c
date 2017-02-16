@@ -36,11 +36,11 @@ void print_array(int *array, int n) {
     printf("\n");
 }
 
-int main()
+int main(void)
 {
-    int array[] = {6, 5, 4, 3, 2, 1};
-    
+    int array[] = {6, 5, 4, 3, 2, 1}; 
     int n = SIZE(array);
+    
     print_array(array, n);
     bubble_sort(array, n);
     print_array(array, n);
