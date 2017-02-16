@@ -9,7 +9,7 @@ void swap(int *a, int *b)
     *b = temp;
 }
 
-void insertion_sort(int *a, int n)
+void selection_sort(int *a, int n)
 {
     int i, j, min;
 
