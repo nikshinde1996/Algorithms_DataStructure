@@ -28,7 +28,7 @@ void bubble_sort(int *array, int n) {
 }
 
 void print_array(int *array, int n) {
-    int i, x;
+    int i;
 
     printf("Array: ");
     for(i = 0; i < n; i++)

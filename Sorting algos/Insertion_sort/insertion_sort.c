@@ -2,27 +2,23 @@
 
 #define SIZE(a) (sizeof(a))/(sizeof(a[0]))
 
-void swap(int *a, int *b)
+void insertion_sort(int *array, int n)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+    int i, j, key;
 
-void insertion_sort(int *a, int n)
-{
-    int i, j, min;
-
-    for(i = 0; i < n-1; i++) {
-        min = i;
-        for(j = i+1; j < n; j++)
-            if(*(a+j) < *(a+min))
-                min = j;
-        swap((a+i), (a+min));
+    for(i = 1; i < n; i++) {
+        key = *(array+i);
+        j = i - 1;
+        while(j >= 0 && key < *(array+j)) {
+            *(array+j+1) = *(array+j);
+            j--;
+        }
+        *(array+j+1) = key;
     }
 }
 
-void print_array(int *array, int n) {
+void print_array(int *array, int n)
+{
     int i;
 
     printf("Array: ");
