@@ -12,14 +12,18 @@ using namespace std;
 
 template <typename T> void selection_sort(T arr[],int n){
     T temp;
+    int mindex = -1;
     for(int i=0;i<n-1;i++){
+        int min_ele = arr[i];
         for(int j=i+1;j<n;j++){
-            if(arr[i]>arr[j]){
-                temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
+            if(min_ele>arr[j]){
+                mindex = j;
+                min_ele = arr[j];
             }
         }
+        T temp = arr[mindex];
+        arr[mindex] = arr[i];
+        arr[i] = temp;
     }
 }
 
