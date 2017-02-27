@@ -14,11 +14,11 @@ int minCost(int arr[R][C],int m,int n){
     for(int i=0;i<R;i++){
       for(int j=0;j<C;j++){
          if(i==0 && j!=0){
-           dp[i][j] = arr[i][j] + dp[i][j-1];
+              dp[i][j] = arr[i][j] + dp[i][j-1];
          }else if(j==0 && i!=0){
-           dp[i][j] = arr[i][j] + dp[i-1][j];
+              dp[i][j] = arr[i][j] + dp[i-1][j];
          }else{
-           dp[i][j] = arr[i][j] + min(dp[i][j-1],min(dp[i-1][j-1],dp[i-1][j]));
+              dp[i][j] = arr[i][j] + min(dp[i][j-1],min(dp[i-1][j-1],dp[i-1][j]));
          }
          cout<<std::setw(4)<<dp[i][j];
       }
