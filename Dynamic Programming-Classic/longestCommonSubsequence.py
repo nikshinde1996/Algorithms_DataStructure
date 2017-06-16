@@ -7,7 +7,7 @@ def lcs(X,Y,M,N):
 		return max(lcs(X,Y,M-1,N),lcs(X,Y,M,N-1))
 
 if __name__ == '__main__':
-	x = "Nikhil"
-	y = "Nihilism"
+	X = "Nikhil"
+	Y = "Nihilism"
 	print(lcs(X,Y,len(X),len(Y)))
 
